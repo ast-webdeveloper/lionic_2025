@@ -18,9 +18,42 @@ img {
 }
 
 body {
+  min-width: 1200px;
+  font-family: 'font', sans-serif;
   font-size: 16px;
 }
 
-ul {
+.list-reset {
+  margin: 0;
+  padding: 0;
   list-style: none;
+}
+
+.btn-reset {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 15px;
+}
+
+.section-title {
+  margin: 0 0 42px;
+}
+
+.section-descr {
+  margin: 0 0 54px;
+}
+
+.section-offset {
+  padding: 87px 0 160px;
 }
