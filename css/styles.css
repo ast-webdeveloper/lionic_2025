@@ -13,6 +13,10 @@ a {
   text-decoration: none;
 }
 
+.a-zero {
+  font-size: 0;
+}
+
 img {
   max-width: 100%;
 }
@@ -56,4 +60,22 @@ body {
 
 .section-offset {
   padding: 87px 0 160px;
+}
+
+/* start header */
+
+.header-container {
+  align-items: center;
+}
+
+.header-logo {
+  margin-right: auto;
+}
+
+.header-nav {
+  margin-right: 52px;
+}
+
+.header-list-item:not(:last-child) {
+  margin-right: 52px;
 }
