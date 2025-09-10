@@ -148,3 +148,42 @@ body {
 }
 
 /* end services */
+
+/* start articles */
+
+.articles-list {
+  flex-wrap: wrap;
+}
+
+.articles-item {
+  margin-bottom: 30px;
+  width: 570px;
+  outline: 1px solid #ccc;
+}
+
+.articles-item:not(:nth-child(2n)) {
+  margin-right: 30px;
+}
+
+.blog-preview-image {
+  object-fit: cover;
+}
+
+.blog-preview-text {
+  padding: 23px 160px 38px 30px;
+}
+
+.blog-preview-time {
+  display: block;
+  margin: 0 0 5px;
+}
+
+.blog-preview-title {
+  margin: 0 0 15px;
+}
+
+.blog-preview-descr {
+  margin: 0;
+}
+
+/* end articles */
