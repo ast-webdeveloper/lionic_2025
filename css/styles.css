@@ -187,3 +187,37 @@ body {
 }
 
 /* end articles */
+
+/* start clients */
+
+.clients-item {
+  flex-direction: column;
+  width: 370px;
+  padding: 51px 53px 32px 36px;
+  outline: 1px solid #ccc;
+}
+
+.clients-item:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
+
+.clients-item-descr {
+  margin: 0 0 33px;
+}
+
+.clients-user {
+  align-items: center;
+  margin-top: auto;
+}
+
+.clients-avatar {
+  flex-shrink: 0;
+  width: 67px;
+  margin-right: 17px;
+}
+
+.clients-name {
+  margin-bottom: 5px;
+}
+
+/* end clients */
