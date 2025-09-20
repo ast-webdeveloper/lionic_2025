@@ -254,4 +254,17 @@ body {
   padding: 42px 0;
 }
 
+.footer-container {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-link {
+  margin-right: 25px;
+}
+
+.footer-item:not(:last-child) {
+  margin-right: 28px;
+}
+
 /* end footer */
