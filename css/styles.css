@@ -263,6 +263,10 @@ body {
   margin-right: 25px;
 }
 
+.footer-nav {
+  margin-right: 56px;
+}
+
 .footer-item:not(:last-child) {
   margin-right: 28px;
 }
