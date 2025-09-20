@@ -221,3 +221,37 @@ body {
 }
 
 /* end clients */
+
+/* start contacts */
+
+.contacts-item-caption {
+  margin-bottom: 30px;
+}
+
+.contacts-item {
+  flex-direction: column;
+  width: 370px;
+  outline: 1px solid #ccc;
+}
+
+.contacts-item:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
+
+.contacts-item-text {
+  margin: 0;
+}
+
+.contacts-link:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+/* end contacts */
+
+/* start footer */
+
+.footer {
+  padding: 42px 0;
+}
+
+/* end footer */
