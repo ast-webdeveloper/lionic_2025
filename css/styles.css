@@ -1,3 +1,27 @@
+@font-face {
+  font-family: 'OpenSans';
+  src: local('OpenSans-Regular'), url('../fonts/OpenSansRegular.woff2') format('woff2'), url('../fonts/OpenSansRegular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: local('OpenSans-Light'), url('../fonts/OpenSansLight.woff2') format('woff2'), url('../fonts/OpenSansLight.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: local('OpenSans-SemiBold'), url('../fonts/OpenSansSemiBold.woff2') format('woff2'), url('../fonts/OpenSansSemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -23,8 +47,9 @@ img {
 
 body {
   min-width: 1200px;
-  font-family: 'font', sans-serif;
+  font-family: 'OpenSans', sans-serif;
   font-size: 16px;
+  font-weight: 400;
 }
 
 .list-reset {
@@ -66,6 +91,8 @@ body {
 
 .header {
   padding: 36px 0;
+  border-bottom: 1px solid #c4c4c4;
+  background-color: #fff;
 }
 
 .header-container {
@@ -82,6 +109,10 @@ body {
 
 .header-list-item:not(:last-child) {
   margin-right: 52px;
+}
+
+.header-link {
+  font-weight: 600;
 }
 
 /* end header */
