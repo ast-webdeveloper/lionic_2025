@@ -91,7 +91,7 @@ body {
   font-weight: 300;
   line-height: 130%;
   color: #1c1c1c;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .section-descr {
@@ -197,7 +197,8 @@ body {
 }
 
 .services-title {
-  margin-bottom: 21px;           
+  margin-bottom: 21px;
+  text-align: center;           
 }
 
 .services-descr {
@@ -366,14 +367,35 @@ body {
 
 /* start contacts */
 
+.contacts-title {
+  margin-bottom: 109px;
+}
+
 .contacts-item-caption {
   margin-bottom: 30px;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 180%;
+  color: #1c1c1c;
 }
 
 .contacts-item {
   flex-direction: column;
+  padding-top: 48px;
   width: 370px;
-  outline: 1px solid #ccc;
+  background: left top / 29px 29px no-repeat;
+}
+
+.contacts-item-1 {
+  background-image: url('../img/contacts/location_on.svg');
+}
+
+.contacts-item-2 {
+  background-image: url('../img/contacts/phone.svg');
+}
+
+.contacts-item-3 {
+  background-image: url('../img/contacts/mail.svg');
 }
 
 .contacts-item:not(:nth-child(3n)) {
@@ -382,6 +404,18 @@ body {
 
 .contacts-item-text {
   margin: 0;
+  max-width: 214px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 180%;
+  color: #787878;
+}
+
+.contacts-link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 180%;
+  color: #787878;
 }
 
 .contacts-link:not(:last-child) {
