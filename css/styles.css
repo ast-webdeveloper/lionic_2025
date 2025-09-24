@@ -435,6 +435,12 @@ body {
   justify-content: space-between;
 }
 
+.footer-logo-text {
+  font-size: 12px;
+  font-weight: 400;
+  color: #787878;
+}
+
 .footer-link {
   margin-right: 25px;
 }
@@ -443,8 +449,18 @@ body {
   margin-right: 56px;
 }
 
+.footer-item {
+  font-weight: 600;
+  font-size: 15px;
+  color: #787878;
+}
+
 .footer-item:not(:last-child) {
   margin-right: 28px;
+}
+
+.footer-social-item:not(:last-child) {
+  margin-right: 32px;
 }
 
 /* end footer */
